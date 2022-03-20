@@ -1,0 +1,33 @@
+{
+    "name": "bhai",
+    "displayName": "Bhai Lang Hindi",
+    "description": "Bhai lang hindi is a Bhai-lang inspired version to write program in hindi",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Programming Languages"
+    ],
+    "contributes": {
+        "languages": [{
+            "id": "bhai",
+            "aliases": ["Bhai-Lang-Hindi", "bhai"],
+            "extensions": [".bhai"],
+            "configuration": "./language-configuration.json"
+        }],
+        "grammars": [{
+            "language": "bhai",
+            "scopeName": "source.bhai",
+            "path": "./syntaxes/bhai.tmLanguage.json"
+        }]
+    },
+	"publisher": "Rahil Sheikh",
+    "icon": "/Bhai_Lang_Hindi.JPG",
+	"__metadata": {
+		"publisherDisplayName": "Rahil Sheikh",
+		"isPreReleaseVersion": true,
+		"preRelease": true,
+		"installedTimestamp": 1647703030124
+	}
+}
